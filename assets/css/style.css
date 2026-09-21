@@ -39,12 +39,9 @@ html, body {
 }
 
 .logo {
-  font-size: clamp(2rem, 6vw, 5rem);
-  font-weight: 400;
-  letter-spacing: 0.25em;
-  color: #E4DDD1; /* TRAVERTINO */
-  text-transform: uppercase;
-  white-space: nowrap;
+  width: clamp(160px, 22vw, 320px);
+  height: auto;
+  display: block;
 }
 
 /* --- Barra contatti in basso --- */
